@@ -162,83 +162,83 @@ VALUES ('00012', '2015-12-21', 'Liam', '(613)435-2345', '700 Sussex Drive, Ottaw
 
 -- The Works
 INSERT INTO MENUITEM
-VALUES ('1001', 'Chicken Fight Club', 'Food', 'Main', 'Cajun dusted chicken breast, fried & topped with chedder cheese, bacon, lettuce, tomato and our signature Beechhouse sauce.', 14.53, '00001');
+VALUES ('0001', 'Chicken Fight Club', 'Food', 'Main', 'Cajun dusted chicken breast, fried & topped with chedder cheese, bacon, lettuce, tomato and our signature Beechhouse sauce.', 14.53, '00001');
 INSERT INTO MENUITEM
-VALUES ('1002', 'Crispy Dills', 'Food', 'Starter', 'Breaded dills, deep fried to a crisp. Server with your choice of dipstick.', 9.98, '00001');
+VALUES ('0002', 'Crispy Dills', 'Food', 'Starter', 'Breaded dills, deep fried to a crisp. Server with your choice of dipstick.', 9.98, '00001');
 INSERT INTO MENUITEM
-VALUES ('1003', 'Root 66 Shake', 'Beverage', 'Beverage', 'Are you gunna go our way with a root beer shake with root beer, creamy Canadian valilla ice cream, topped with whipped cream, oreo cookie crumble & garnished with an old-fashioned root beer candy stick.', 7.91, '00001');
+VALUES ('0003', 'Root 66 Shake', 'Beverage', 'Beverage', 'Are you gunna go our way with a root beer shake with root beer, creamy Canadian valilla ice cream, topped with whipped cream, oreo cookie crumble & garnished with an old-fashioned root beer candy stick.', 7.91, '00001');
 INSERT INTO MENUITEM
-VALUES ('1004', 'Cookie Monster', 'Food', 'Dessert', ' Chocolate chip cookies, vanilla ice cream, chocolate sauce and whipped cream.', 4.97, '00001');
+VALUES ('0004', 'Cookie Monster', 'Food', 'Dessert', ' Chocolate chip cookies, vanilla ice cream, chocolate sauce and whipped cream.', 4.97, '00001');
 INSERT INTO MENUITEM
-VALUES ('1005', 'Crappy Tire', 'Food', 'Main', 'Grilled pineapple ring, sweet & spicy sauce & brie cheese(Canadian Tire $ accepted).', 13.27, '00001');
+VALUES ('0005', 'Crappy Tire', 'Food', 'Main', 'Grilled pineapple ring, sweet & spicy sauce & brie cheese(Canadian Tire $ accepted).', 13.27, '00001');
 
 -- Moose McGuires
 INSERT INTO MENUITEM
-VALUES ('1006', 'Grilled Chicken Sandwich', 'Food', 'Main', 'Our marinated chicken breast with crispy bacon, mixed greens, tomatoes and pesto mayo on a fresh ciabatta bun.', 14.00, '00002');
+VALUES ('0006', 'Grilled Chicken Sandwich', 'Food', 'Main', 'Our marinated chicken breast with crispy bacon, mixed greens, tomatoes and pesto mayo on a fresh ciabatta bun.', 14.00, '00002');
 INSERT INTO MENUITEM
-VALUES ('1007', 'Potato Skina', 'Food', 'Starter', 'Russet potato skins stuffed with bacon, cheese, green onions and tomatoes. Served with salsa and sour cream.', 10.00, '00002');
+VALUES ('0007', 'Potato Skina', 'Food', 'Starter', 'Russet potato skins stuffed with bacon, cheese, green onions and tomatoes. Served with salsa and sour cream.', 10.00, '00002');
 INSERT INTO MENUITEM
-VALUES ('1008', 'Chicken Souvlaki', 'Food', 'Main', 'Two skevers of marinated chicken breast serves with a Greek salad and warm flatbread.', 14.50, '00002');
+VALUES ('0008', 'Chicken Souvlaki', 'Food', 'Main', 'Two skevers of marinated chicken breast serves with a Greek salad and warm flatbread.', 14.50, '00002');
 INSERT INTO MENUITEM
-VALUES ('1009', 'Canadian Pizza(15")', 'Food', 'Main', 'Bacon, mushrooms, pepperoni, smoked ham, chedder and mozzarella cheese with ranch and pizza sauce.', 25.00, '00002');
+VALUES ('0009', 'Canadian Pizza(15")', 'Food', 'Main', 'Bacon, mushrooms, pepperoni, smoked ham, chedder and mozzarella cheese with ranch and pizza sauce.', 25.00, '00002');
 INSERT INTO MENUITEM
-VALUES ('1010', 'Canadian Pizza(7")', 'Food', 'Main', 'Bacon, mushrooms, pepperoni, smoked ham, chedder and mozzarella cheese with ranch and pizza sauce.', 13.00, '00002');
+VALUES ('0010', 'Canadian Pizza(7")', 'Food', 'Main', 'Bacon, mushrooms, pepperoni, smoked ham, chedder and mozzarella cheese with ranch and pizza sauce.', 13.00, '00002');
 
 -- Central Bierhaus
 INSERT INTO MENUITEM
-VALUES ('1011', 'Fish & Potato Cakes', 'Food', 'Starter', 'Haddock, potato, apple fennel slaw, classic tartar.', 11.00, '00003');
+VALUES ('0011', 'Fish & Potato Cakes', 'Food', 'Starter', 'Haddock, potato, apple fennel slaw, classic tartar.', 11.00, '00003');
 INSERT INTO MENUITEM
-VALUES ('1012', 'Beef Short Rib', 'Food', 'Main', 'Roasted fingerling potato, wilted freens, pickled carrots.', 24.00, '00003');
+VALUES ('0012', 'Beef Short Rib', 'Food', 'Main', 'Roasted fingerling potato, wilted freens, pickled carrots.', 24.00, '00003');
 INSERT INTO MENUITEM
-VALUES ('1013', 'Seared Artic Char', 'Food', 'Main', 'Sweet potato, pepper, cabbage hash, mapple mustard glaze.', 20.00, '00003');
+VALUES ('0013', 'Seared Artic Char', 'Food', 'Main', 'Sweet potato, pepper, cabbage hash, mapple mustard glaze.', 20.00, '00003');
 INSERT INTO MENUITEM
-VALUES ('1014', 'Lobster Poutine', 'Food', 'Main', 'House chipped fries, cheese curds, lobster, bisque.', 14.00, '00003');
+VALUES ('0014', 'Lobster Poutine', 'Food', 'Main', 'House chipped fries, cheese curds, lobster, bisque.', 14.00, '00003');
 
 -- Saigon Boy Noodle House
 INSERT INTO MENUITEM
-VALUES ('1015', 'Shrimp Spring Roll', 'Food', 'Starter', 'description', 5.00, '00004');
+VALUES ('0015', 'Shrimp Spring Roll', 'Food', 'Starter', 'description', 5.00, '00004');
 INSERT INTO MENUITEM
-VALUES ('1016', 'Shrimp Summer Roll', 'Food', 'Starter', 'description', 5.00, '00004');
+VALUES ('0016', 'Shrimp Summer Roll', 'Food', 'Starter', 'description', 5.00, '00004');
 INSERT INTO MENUITEM
-VALUES ('1017', 'Don Noodle with Seafood', 'Food', 'Main', 'Shrimp, Squid, Fish Cake, Crab', 8.75, '00004');
+VALUES ('0017', 'Don Noodle with Seafood', 'Food', 'Main', 'Shrimp, Squid, Fish Cake, Crab', 8.75, '00004');
 INSERT INTO MENUITEM
-VALUES ('1018', 'Coffee with Condensed Milk', 'Beverage', 'Beverage', '', 3.95, '00004');
+VALUES ('0018', 'Coffee with Condensed Milk', 'Beverage', 'Beverage', '', 3.95, '00004');
 INSERT INTO MENUITEM
-VALUES ('1019', 'Red Bull', 'Beverage', 'Beverage', '', 3.50, '00004');
+VALUES ('0019', 'Red Bull', 'Beverage', 'Beverage', '', 3.50, '00004');
 INSERT INTO MENUITEM
-VALUES ('1020', 'Green Tea|Coconut|Ginger|Mango', 'Beverage', 'Dessert', '', 4.25, '00004');
+VALUES ('0020', 'Green Tea|Coconut|Ginger|Mango', 'Beverage', 'Dessert', '', 4.25, '00004');
 INSERT INTO MENUITEM
-VALUES ('1021', 'Vanilla Ice Cream topped with peanuts', 'Food', 'Dessert', '', 3.25, '00004');
+VALUES ('0021', 'Vanilla Ice Cream topped with peanuts', 'Food', 'Dessert', '', 3.25, '00004');
 
 -- The Soca Kitchen
 INSERT INTO MENUITEM
-VALUES ('1022', 'Soup of the Day', 'Food', 'Starter', 'Local farm fresh produce', 5.00, '00005');
+VALUES ('0022', 'Soup of the Day', 'Food', 'Starter', 'Local farm fresh produce', 5.00, '00005');
 INSERT INTO MENUITEM
-VALUES ('1023', 'Duo tacos', 'Food', 'Main', 'Pineapple, homemade hot sauce, pickled unions', 14.00, '00005');
+VALUES ('0023', 'Duo tacos', 'Food', 'Main', 'Pineapple, homemade hot sauce, pickled unions', 14.00, '00005');
 INSERT INTO MENUITEM
-VALUES ('1024', 'Seafood tower', 'Food', 'Main', 'Oysters, lobster tail, musset escabeche, coctail shrimp', 69.00, '00005');
+VALUES ('0024', 'Seafood tower', 'Food', 'Main', 'Oysters, lobster tail, musset escabeche, coctail shrimp', 69.00, '00005');
 INSERT INTO MENUITEM
-VALUES ('1025', 'Plate Grandes', 'Food', 'Main', 'charred cauliflower "steak"', 24.00, '00005');
+VALUES ('0025', 'Plate Grandes', 'Food', 'Main', 'charred cauliflower "steak"', 24.00, '00005');
 INSERT INTO MENUITEM
-VALUES ('1026', 'Plate X-Grande', 'Food', 'Main', 'X large strip loin steak, home made black garlic mashed potatoes, hazelnut, salad. For two.', 76.00, '00005');
+VALUES ('0026', 'Plate X-Grande', 'Food', 'Main', 'X large strip loin steak, home made black garlic mashed potatoes, hazelnut, salad. For two.', 76.00, '00005');
 
 -- MHK Sushi
 INSERT INTO MENUITEM
-VALUES ('1027', 'Gyoza', 'Food', 'Starter', 'Beef dumpling(5pcs)', 5.00, '00006');
+VALUES ('0027', 'Gyoza', 'Food', 'Starter', 'Beef dumpling(5pcs)', 5.00, '00006');
 INSERT INTO MENUITEM
-VALUES ('1028', 'Sushi Lunch', 'Food', 'Main', '6 assorted Nigiri and 6 pieces of Maki', 13.00, '00006');
+VALUES ('0028', 'Sushi Lunch', 'Food', 'Main', '6 assorted Nigiri and 6 pieces of Maki', 13.00, '00006');
 INSERT INTO MENUITEM
-VALUES ('1029', 'MHK Maki Platter', 'Food', 'Main', 'Chefs special Maki, Hawaiian Maki, and Japanese bagel Maki.', 20.00, '00006');
+VALUES ('0029', 'MHK Maki Platter', 'Food', 'Main', 'Chefs special Maki, Hawaiian Maki, and Japanese bagel Maki.', 20.00, '00006');
 INSERT INTO MENUITEM
-VALUES ('1030', 'Dragon Roll', 'Food', 'Main', 'Eel, cucumber and mayo, avocado, smelt roe and eel sauce.', 13.00, '00006');
+VALUES ('0030', 'Dragon Roll', 'Food', 'Main', 'Eel, cucumber and mayo, avocado, smelt roe and eel sauce.', 13.00, '00006');
 INSERT INTO MENUITEM
-VALUES ('1031', 'Volcano Roll', 'Food', 'Main', 'California Roll with avocado slices, baked octopus and spicy house sauce on top.', 12.00, '00006');
+VALUES ('0031', 'Volcano Roll', 'Food', 'Main', 'California Roll with avocado slices, baked octopus and spicy house sauce on top.', 12.00, '00006');
 
 -- Bread and Sons Bakery
 INSERT INTO MENUITEM
-VALUES ('1032', 'Franks Wild Years', 'Food', 'Pizza', 'Cherry, Roma, Sun dried, Roasted Garlic, Feta', 14.00, '00007');
+VALUES ('0032', 'Franks Wild Years', 'Food', 'Pizza', 'Cherry, Roma, Sun dried, Roasted Garlic, Feta', 14.00, '00007');
 INSERT INTO MENUITEM
-VALUES ('1033', 'The Boss', 'Food', 'Pizza', 'Bocconcini, Cherry Tomatoes, Argula, Roasted Garlic', 14.00, '00007');
+VALUES ('0033', 'The Boss', 'Food', 'Pizza', 'Bocconcini, Cherry Tomatoes, Argula, Roasted Garlic', 14.00, '00007');
 INSERT INTO MENUITEM
 VALUES ('0034', 'Espresso', 'Drink', 'Coffee', '', 2.81, '00007');
 INSERT INTO MENUITEM
@@ -299,236 +299,234 @@ VALUES ('0055', 'Miso Glazed Cod', 'Food', 'Mains', 'Pan seared wild Norwegian c
 
 -- The Works
 INSERT INTO RATING
-VALUES ('00001', '00031', '2016-6-23', 3, 4, 3, 5, '', '00001');
+VALUES ('00001', '00031', '2016-6-23', 3, 4, 3, 5, 'This place had a lot of heart. The appetizers must be sprinkled with crack because I just craved for more and more. I want to hire their decorator to furnish my apartment. The food was cooked to perfection. The waiter was prompt and polite. I had a satisfactory experience and will have to try it again.', '00001');
 INSERT INTO RATING
-VALUES ('00002', '00032', '2006-8-14', 4, 4, 2, 4, '', '00001');
+VALUES ('00002', '00032', '2006-8-14', 4, 4, 2, 4, 'I stumbled on this undiscovered gem right in our neighboorhood. Everything was mostly decadent. I want to hire their decorator to furnish my apartment. It failed to meet the 5-star experience because the waitress had really bad body odor.', '00001');
 INSERT INTO RATING
-VALUES ('00003', '00033', '2015-10-27', 4, 4, 3, 5, '', '00001');
+VALUES ('00003', '00033', '2015-10-27', 4, 4, 3, 5, 'I was pleasantly surprised. The entrees are simply to die for. The ambiance gives off an earthy feel-good vibe. I was happy to see how clean everything was. Everything was just so yummy. I had a satisfactory experience and will have to try it again.', '00001');
 INSERT INTO RATING
-VALUES ('00004', '00034', '2010-3-7', 4, 3, 3, 5, '', '00001');
+VALUES ('00004', '00034', '2010-3-7', 4, 3, 3, 5, 'It was much better than I expected. I found the entrees to be very agreeable to my personal flavor-profile. Everything was just so yummy. I would have rated this higher, but the waitress made a pass at me. So inappropriate.', '00001');
 INSERT INTO RATING
-VALUES ('00005', '00035', '2005-1-16', 4, 2, 3, 4, '', '00001');
+VALUES ('00005', '00035', '2005-1-16', 4, 2, 3, 4, 'This place had a lot of heart. The decor was unique and incredible. The waitress did an excellent job. Solid 4 stars.', '00001');
 INSERT INTO RATING
-VALUES ('00006', '00036', '2017-6-19', 4, 2, 5, 5, '', '00001');
+VALUES ('00006', '00036', '2017-6-19', 4, 2, 5, 5, 'This is one of my favorite places. Everything was just so yummy. Try out the huge selection of incredible appetizers. The food was flavorful, savory, and succulent. They got a new customer for life!', '00001');
 INSERT INTO RATING
-VALUES ('00007', '00037', '2018-3-21', 4, 4, 3, 5, '', '00001');
+VALUES ('00007', '00037', '2018-3-21', 3, 4, 3, 5, 'I was pleasantly surprised. I found the ambiance to be very charming. I was happy to see how clean everything was. Make sure to save room for dessert, because that was the best part of the meal! Try out the huge selection of incredible appetizers. I would have rated this higher, but the waitress kept looking at me funny the whole time.', '00001');
 INSERT INTO RATING
-VALUES ('00008', '00038', '2011-8-30', 3, 5, 3, 5, '', '00001');
+VALUES ('00008', '00038', '2011-8-30', 5, 5, 3, 5, 'Oh! My! God! So yummy! The food was cooked to perfection. The waitress was prompt and polite. Everything was just so yummy. Make sure to save room for dessert, because that was the best part of the meal! They got a new customer for life!', '00001');
 INSERT INTO RATING
-VALUES ('00009', '00039', '2009-12-1', 4, 4, 3, 5, '', '00001');
+VALUES ('00009', '00039', '2009-12-1', 4, 4, 3, 5, 'I stumbled on this undiscovered gem right in our neighboorhood. The waitress was prompt and polite. Try out the huge selection of incredible appetizers. The food was flavorful, savory, and succulent. Make sure to save room for dessert, because that was the best part of the meal! I had a satisfactory experience and will have to try it again.', '00001');
 INSERT INTO RATING
-VALUES ('00010', '00040', '2005-5-4', 4, 1, 3, 2, '', '00001');
+VALUES ('00010', '00040', '2005-5-4', 4, 1, 3, 2, 'This place was nearby and I decided to check it out. After my meal, I was knocked into a food coma. Everything was mostly decadent. Solid 4 stars.', '00001');
 
 -- Moose McGuires
 INSERT INTO RATING
-VALUES ('00011', '00041', '2016-5-17', 4, 4, 3, 5, '', '00002');
+VALUES ('00011', '00041', '2005-2-23', 1, 2, 3, 2, 'I really wanted to like this place. The whole place was just dirty. The photos of the food were appetizing and palpable, but didnt live up to the hype. Too many things on the menu look like crap, smell like crap, and taste like crap. I would be hard pressed to come back.', '00002');
 INSERT INTO RATING
-VALUES ('00012', '00042', '2016-5-17', 4, 4, 3, 5, '', '00002');
+VALUES ('00012', '00042', '2010-5-10', 2, 3, 2, 1, 'I had high hopes for this place. Seriously, how difficult is it to get a clean glass around here? Everything tasted either microwaved or straight from a can. The waitress was nothing remarkable. Meh.', '00002');
 INSERT INTO RATING
-VALUES ('00013', '00043', '2016-5-17', 4, 4, 3, 5, '', '00002');
+VALUES ('00013', '00043', '2006-7-13', 2, 1, 3, 2, 'I felt like this place wasnt trying hard enough. The food was all right but seriously lacked presentation. Everything tasted either microwaved or straight from a can. Too many things on the menu look like crap, smell like crap, and taste like crap. I would be hard pressed to come back.', '00002');
 INSERT INTO RATING
-VALUES ('00014', '00044', '2016-5-17', 4, 4, 3, 5, '', '00002');
+VALUES ('00014', '00044', '2008-2-7', 1, 3, 1, 3, 'This place was just ok. Everything tasted either microwaved or straight from a can. The menu didnt match the one on their website. I had a less than satisfactory experience and will probably not be here again.', '00002');
 INSERT INTO RATING
-VALUES ('00015', '00045', '2016-5-17', 4, 4, 3, 5, '', '00002');
+VALUES ('00015', '00045', '2008-5-29', 1, 1, 1, 1, 'I can summarize my visit in one word: Terrible. My water glass was stained with lipstick and had bits of food floating in it. I asked for my steak medium, but it was frozen in the center. Even Chef Boyardee would be disgusted by this sorry attempt at a meal. Overhyped. Wild horses couldnt drag me back here.', '00002');
 INSERT INTO RATING
-VALUES ('00016', '00031', '2016-5-17', 4, 4, 3, 5, '', '00002');
+VALUES ('00016', '00031', '2016-9-30', 1, 1, 1, 2, 'I really wanted to like this place. There were bits of food stuck to my silverware. The kitchen screwed up my order completely, mixing it up with someone elses. It took almost an hour to get it corrected! The service was terrible. The waiter was very air-headed. This food will start the zombie apocalypse. Stay away!', '00002');
 INSERT INTO RATING
-VALUES ('00017', '00032', '2016-5-17', 4, 4, 3, 5, '', '00002');
+VALUES ('00017', '00032', '2017-12-7', 1, 3, 3, 1, 'Meh. Too many things on the menu look like crap, smell like crap, and taste like crap. The burger was undercooked. They need to get their act together before I set foot in this place again.', '00002');
 INSERT INTO RATING
-VALUES ('00018', '00033', '2016-5-17', 4, 4, 3, 5, '', '00002');
+VALUES ('00018', '00033', '2013-10-1', 4, 5, 3, 2, 'It was much better than I expected. The waiter was prompt and polite. The entree I had was sublime. It could have been perfect, but my wine glass was dirty.', '00002');
 INSERT INTO RATING
-VALUES ('', '00034', '2016-5-17', 4, 4, 3, 5, '', '00002');
-INSERT INTO RATING
-VALUES ('00019', '00035', '2016-5-17', 4, 4, 3, 5, '', '00002');
+VALUES ('00019', '00035', '2009-5-16', 1, 2, 3, 2, 'I felt like this place wasnt trying at all. The tofu dish tasted spongy and a bit bland. I felt the prices were too high given the quality of the food. The service wasnt that good and the waiter was air-headed. Seriously, how difficult is it to get a clean glass around here? Meh.', '00002');
 
 -- Central Bierhaus
 INSERT INTO RATING
-VALUES ('00020', '00036', '2016-5-17', 4, 4, 3, 5, '', '00003');
+VALUES ('00020', '00036', '2006-9-17', 3, 3, 3, 4, 'This place was just ok. The chicken was a little dry. Overhyped. I felt the prices were too high given the quality of the food. The waitress was nothing remarkable. This place deserves its very average rating.', '00003');
 INSERT INTO RATING
-VALUES ('00021', '00037', '2016-5-17', 4, 4, 3, 5, '', '00003');
+VALUES ('00021', '00037', '2008-10-17', 3, 2, 3, 2, 'This place was nearby and I decided to check it out. The service wasnt that good and the waiter was tired. I felt the prices were too high given the quality of the food. Might be back. Time will tell.', '00003');
 INSERT INTO RATING
-VALUES ('00022', '00038', '2016-5-17', 4, 4, 3, 5, '', '00003');
+VALUES ('00022', '00038', '2009-3-17', 2, 3, 4, 3, 'When I walked in, I really wasnt expecting much. The photos of the food were appetizing and palpable, but didnt live up to the hype. The service wasnt that good and the waitress was tired. ', '00003');
 INSERT INTO RATING
-VALUES ('00023', '00039', '2016-5-17', 4, 4, 3, 5, '', '00003');
+VALUES ('00023', '00039', '2010-7-17', 4, 2, 3, 3, 'Im torn about this place. There were a lot of interesting decorations on the walls. I felt the prices were too high given the quality of the food. I was not very pleased to find out that the coffee wasnt organic. Satisfactory experience, will come again.', '00003');
 INSERT INTO RATING
-VALUES ('00024', '00040', '2016-5-17', 4, 4, 3, 5, '', '00003');
+VALUES ('00024', '00040', '2011-5-17', 4, 4, 3, 4, 'I felt like this place was trying too hard. The waitress was barely there. Satisfactory experience, will come again.', '00003');
 INSERT INTO RATING
-VALUES ('00025', '00041', '2016-5-17', 4, 4, 3, 5, '', '00003');
+VALUES ('00025', '00041', '2012-12-17', 4, 5, 2, 3, 'I stumbled on this undiscovered gem right in our neighboorhood. The ambiance gives off an earthy feel-good vibe. I found the entrees to be very agreeable to my personal flavor-profile.', '00003');
 INSERT INTO RATING
-VALUES ('00026', '00042', '2016-5-17', 4, 4, 3, 5, '', '00003');
+VALUES ('00026', '00042', '2013-1-17', 2, 1, 3, 2, 'Bleh. The fish was dry. I felt the prices were too high given the quality of the food. I was not very pleased to find out that the coffee wasnt organic. This place is very dumpy and in a serious need of a fresh paint job. 2 stars.', '00003');
 INSERT INTO RATING
-VALUES ('00027', '00043', '2016-5-17', 4, 4, 3, 5, '', '00003');
+VALUES ('00027', '00043', '2015-6-17', 5, 4, 2, 3, 'It was much better than I expected. The chicken was a little dry. The waitress was prompt and polite. I was happy to see how clean everything was. The ambiance gives off an earthy feel-good vibe. Satisfactory experience, will come again.', '00003');
 INSERT INTO RATING
-VALUES ('00028', '00044', '2016-5-17', 4, 4, 3, 5, '', '00003');
+VALUES ('00028', '00044', '2017-2-17', 3, 3, 3, 2, 'This place had a lot of heart. Everything was just so yummy. The food was flavorful, savory, and succulent. I had a satisfactory experience and will have to try it again.', '00003');
 
 -- Saigon Boy Noodle House
 INSERT INTO RATING
-VALUES ('00029', '00045', '2016-5-17', 4, 4, 3, 5, '', '00004');
+VALUES ('00029', '00045', '2007-9-17', 2, 5, 4, 2, 'I felt like this place wasnt trying hard enough. The steak was a little dry.', '00004');
 INSERT INTO RATING
-VALUES ('00030', '00044', '2016-5-17', 4, 4, 3, 5, '', '00004');
+VALUES ('00030', '00044', '2016-5-17', 2, 1, 2, 4, 'This place was nearby and I decided to check it out. I felt the prices were too high given the quality of the food. The service was good for the most part but the waitress was a bit air-headed.', '00004');
 INSERT INTO RATING
-VALUES ('00031', '00043', '2016-5-17', 4, 4, 3, 5, '', '00004');
+VALUES ('00031', '00043', '2012-2-17', 1, 2, 3, 4, 'I felt like this place was trying too hard. The ambiance gives off an earthy feel-good vibe. I found the entrees to be somewhat agreeable to my personal flavor-profile. I would probably come back more often if the service was better.', '00004');
 INSERT INTO RATING
-VALUES ('00032', '00031', '2016-5-17', 4, 4, 3, 5, '', '00004');
+VALUES ('00032', '00031', '2010-5-17', 1, 3, 1, 3, 'I have been here several times before. Overhyped. I was not very pleased to find out that the coffee wasnt organic.', '00004');
 INSERT INTO RATING
-VALUES ('00033', '00032', '2016-5-17', 4, 4, 3, 5, '', '00004');
+VALUES ('00033', '00032', '2009-3-17', 3, 3, 3, 5, 'This place had a lot of heart. I found the entrees to be somewhat agreeable to my personal flavor-profile. Some of my favorite dishes are no longer available. The service was good for the most part but the waiter was a bit tired.', '00004');
 INSERT INTO RATING
-VALUES ('00034', '00033', '2016-5-17', 4, 4, 3, 5, '', '00004');
+VALUES ('00034', '00033', '2008-12-17', 5, 1, 3, 1, 'There were a lot of interesting decorations on the walls.', '00004');
 INSERT INTO RATING
-VALUES ('00035', '00034', '2016-5-17', 4, 4, 3, 5, '', '00004');
+VALUES ('00035', '00034', '2014-11-17', 1, 3, 4, 1, 'The whole place was just dirty. I heard a rumor that the vegetarian dishes are prepared alongside the meat.', '00004');
 INSERT INTO RATING
-VALUES ('00036', '00036', '2016-5-17', 4, 4, 3, 5, '', '00004');
+VALUES ('00036', '00036', '2011-8-17', 4, 1, 1, 4, 'Im torn about this place. Overhyped. The waiter was barely there.', '00004');
 INSERT INTO RATING
-VALUES ('00037', '00037', '2016-5-17', 4, 4, 3, 5, '', '00004');
+VALUES ('00037', '00037', '2008-4-17', 1, 4, 4, 5, 'Some of my favorite dishes are no longer available.', '00004');
 INSERT INTO RATING
-VALUES ('00038', '00039', '2016-5-17', 4, 4, 3, 5, '', '00004');
+VALUES ('00038', '00039', '2017-8-17', 3, 5, 5, 3, 'Best experience ever! The decor was unique and incredible. The waiter did an excellent job. Im definitely coming back for more!', '00004');
 
 -- The Soca Kitchen
 INSERT INTO RATING
-VALUES ('00039', '00041', '2016-5-17', 4, 4, 3, 5, '', '00005');
+VALUES ('00039', '00041', '2008-10-17', 4, 4, 3, 1, 'The menu didnt match the one on their website.', '00005');
 INSERT INTO RATING
-VALUES ('00040', '00039', '2016-5-17', 4, 4, 3, 5, '', '00005');
+VALUES ('00040', '00039', '2009-5-17', 1, 1, 4, 5, 'I asked for my steak medium-rare, but it was still cold.', '00005');
 INSERT INTO RATING
-VALUES ('00041', '00037', '2016-5-17', 4, 4, 3, 5, '', '00005');
+VALUES ('00041', '00037', '2011-3-17', 5, 2, 4, 5, 'There were a lot of interesting decorations on the walls.', '00005');
 INSERT INTO RATING
-VALUES ('00042', '00036', '2016-5-17', 4, 4, 3, 5, '', '00005');
+VALUES ('00042', '00036', '2010-2-17', 5, 3, 3, 4, 'I have been here several times before. Overhyped. I was not very pleased to find out that the coffee wasnt organic.', '00005');
 INSERT INTO RATING
-VALUES ('00043', '00035', '2016-5-17', 4, 4, 3, 5, '', '00005');
+VALUES ('00043', '00035', '2012-6-17', 1, 2, 4, 1, 'I asked for my steak medium-rare, but it was still cold.', '00005');
 INSERT INTO RATING
-VALUES ('00044', '00034', '2016-5-17', 4, 4, 3, 5, '', '00005');
+VALUES ('00044', '00034', '2013-12-17', 4, 4, 5, 2, 'The menu didnt match the one on their website. ', '00005');
 INSERT INTO RATING
-VALUES ('00045', '00033', '2016-5-17', 4, 4, 3, 5, '', '00005');
+VALUES ('00045', '00033', '2014-7-17', 1, 4, 4, 1, 'There were bits of food stuck to my silverware.', '00005');
 INSERT INTO RATING
-VALUES ('00046', '00032', '2016-5-17', 4, 4, 3, 5, '', '00005');
+VALUES ('00046', '00032', '2015-3-17', 4, 2, 3, 5, 'I felt like this place wasnt trying hard enough. The steak was a little dry. ', '00005');
 INSERT INTO RATING
-VALUES ('00047', '00031', '2016-5-17', 4, 4, 3, 5, '', '00005');
+VALUES ('00047', '00031', '2017-8-17', 5, 4, 4, 3, 'The desserts must be sprinkled with crack because I just craved for more and more. Everything was just so yummy.', '00005');
 
 -- MHK Sushi
 INSERT INTO RATING
-VALUES ('00048', '00031', '2016-5-17', 4, 4, 3, 5, '', '00006');
+VALUES ('00048', '00031', '2009-9-17', 3, 3, 4, 5, 'This is one of my favorite places. The decor was unique and incredible. The food was cooked to perfection. Everything I tried was bursting with flavor.', '00006');
 INSERT INTO RATING
-VALUES ('00049', '00032', '2016-5-17', 4, 4, 3, 5, '', '00006');
+VALUES ('00049', '00032', '2010-1-17', 5, 3, 4, 4, 'Yummers! I found the ambiance to be very charming. This was one of the best mouth-watering steaks Ive had grace my taste buds in a long time. Everything was just so yummy. The waitress did an excellent job. This is definitely a spot Ill be frequenting.', '00006');
 INSERT INTO RATING
-VALUES ('00050', '00033', '2016-5-17', 4, 4, 3, 5, '', '00006');
+VALUES ('00050', '00033', '2017-3-17', 3, 5, 4, 5, 'My taste buds are still dancing from our last visit! The food was cooked to perfection. The waiter did an excellent job. Everything I tried was bursting with flavor. Everything was just so yummy.', '00006');
 INSERT INTO RATING
-VALUES ('00051', '00034', '2016-5-17', 4, 4, 3, 5, '', '00006');
+VALUES ('00051', '00034', '2017-4-17', 4, 5, 5, 4, 'I stumbled on this undiscovered gem right in our neighboorhood. The food was cooked to perfection. After my meal, I was knocked into a food coma. I want to hire their decorator to furnish my apartment. The waiter was prompt and polite.', '00006');
 INSERT INTO RATING
-VALUES ('00052', '00035', '2016-5-17', 4, 4, 3, 5, '', '00006');
+VALUES ('00052', '00035', '2016-5-17', 5, 4, 4, 5, 'OMG! So good! Make sure to save room for dessert, because that was the best part of the meal! I found the ambiance to be very charming. Try out the huge selection of incredible appetizers.', '00006');
 INSERT INTO RATING
-VALUES ('00053', '00036', '2016-5-17', 4, 4, 3, 5, '', '00006');
+VALUES ('00053', '00036', '2015-8-17', 5, 4, 4, 3, 'Best experience ever! The entrees are simply to die for. Try out the huge selection of incredible appetizers. I want to hire their decorator to furnish my apartment.', '00006');
 INSERT INTO RATING
-VALUES ('00054', '00037', '2016-5-17', 4, 4, 3, 5, '', '00006');
+VALUES ('00054', '00037', '2013-6-17', 5, 5, 5, 5, 'I stumbled on this undiscovered gem right in our neighboorhood. The food was flavorful, savory, and succulent. Everything was just so yummy. Id give more than 5 stars if I could!', '00006');
 INSERT INTO RATING
-VALUES ('00055', '00038', '2016-5-17', 4, 4, 3, 5, '', '00006');
+VALUES ('00055', '00038', '2012-8-17', 4, 4, 5, 5, 'Best experience ever! The decor was unique and incredible. Everything from the starters to the entrees to the desserts meshed perfectly with my flavor-profile. After my meal, I was knocked into a food coma.', '00006');
 INSERT INTO RATING
-VALUES ('00056', '00039', '2016-5-17', 4, 4, 3, 5, '', '00006');
+VALUES ('00056', '00039', '2011-12-17', 4, 3, 5, 4, 'I stumbled on this undiscovered gem right in our neighboorhood. This was one of the best mouth-watering steaks Ive had grace my taste buds in a long time. The waiter was prompt and polite. The decor was unique and incredible.', '00006');
 INSERT INTO RATING
-VALUES ('00057', '00043', '2016-5-17', 4, 4, 3, 5, '', '00006');
+VALUES ('00057', '00043', '2012-10-17', 4, 5, 3, 5, 'I stumbled on this undiscovered gem right in our neighboorhood. The service was good for the most part but the waiter was a bit clueless. The decor was unique and incredible. The entree I had was sublime. I was happy to see how clean everything was.', '00006');
 
 -- Bread and Sons Bakery
 INSERT INTO RATING
-VALUES ('00058', '00031', '2016-5-17', 4, 4, 3, 5, '', '00007');
+VALUES ('00058', '00031', '2010-12-17', 2, 4, 1, 5, 'This place had a lot of heart. The entree I had was sublime. The waitress was barely there. The ambiance gives off an earthy feel-good vibe. ', '00007');
 INSERT INTO RATING
-VALUES ('00059', '00032', '2016-5-17', 4, 4, 3, 5, '', '00007');
+VALUES ('00059', '00032', '2010-11-17', 3, 1, 3, 3, 'I felt like this place was trying too hard. The ambiance gives off an earthy feel-good vibe. Some of my favorite dishes are no longer available. This place deserves its very average rating.', '00007');
 INSERT INTO RATING
-VALUES ('00060', '00033', '2016-5-17', 4, 4, 3, 5, '', '00007');
+VALUES ('00060', '00033', '2011-4-17', 2, 2, 5, 2, 'I had high hopes for this place. I was not very pleased to find out that the coffee wasnt organic. The steak was a little dry.', '00007');
 INSERT INTO RATING
-VALUES ('00061', '00034', '2016-5-17', 4, 4, 3, 5, '', '00007');
+VALUES ('00061', '00034', '2012-6-17', 3, 1, 4, 4, 'The waiter was nothing remarkable. Overall, this place is just okay.', '00007');
 INSERT INTO RATING
-VALUES ('00062', '00035', '2016-5-17', 4, 4, 3, 5, '', '00007');
+VALUES ('00062', '00035', '2013-9-17', 2, 1, 3, 4, 'I have been here several times before. Overhyped. I was not very pleased to find out that the coffee wasnt organic.', '00007');
 INSERT INTO RATING
-VALUES ('00063', '00036', '2016-5-17', 4, 4, 3, 5, '', '00007');
+VALUES ('00063', '00036', '2014-2-17', 3, 4, 2, 3, 'This place was just ok. Overhyped. The chicken was a little dry. The waiter was barely there. Might be back. Time will tell.', '00007');
 INSERT INTO RATING
-VALUES ('00064', '00037', '2016-5-17', 4, 4, 3, 5, '', '00007');
+VALUES ('00064', '00037', '2015-1-17', 1, 2, 1, 5, 'I felt the prices were too high given the quality of the food.', '00007');
 INSERT INTO RATING
-VALUES ('00065', '00038', '2016-5-17', 4, 4, 3, 5, '', '00007');
+VALUES ('00065', '00038', '2015-4-17', 5, 1, 4, 1, 'There were a lot of interesting decorations on the walls.', '00007');
 
 -- The Red Dot
 INSERT INTO RATING
-VALUES ('00066', '00031', '2016-5-17', 4, 4, 3, 5, '', '00008');
+VALUES ('00066', '00031', '2011-12-17', 1, 4, 4, 5, 'I felt the prices were too high given the quality of the food.', '00008');
 INSERT INTO RATING
-VALUES ('00067', '00032', '2016-5-17', 4, 4, 3, 5, '', '00008');
+VALUES ('00067', '00032', '2012-3-17', 5, 1, 2, 4, 'The waiter did an excellent job.', '00008');
 INSERT INTO RATING
-VALUES ('00068', '00033', '2016-5-17', 4, 4, 3, 5, '', '00008');
+VALUES ('00068', '00033', '2013-4-17', 4, 1, 5, 4, 'This place had a lot of heart. The entree I had was sublime. The waitress was barely there. The ambiance gives off an earthy feel-good vibe. ', '00008');
 INSERT INTO RATING
-VALUES ('00069', '00034', '2016-5-17', 4, 4, 3, 5, '', '00008');
+VALUES ('00069', '00034', '2014-5-17', 5, 5, 4, 3, 'After my meal, I was knocked into a food coma.', '00008');
 INSERT INTO RATING
-VALUES ('00070', '00035', '2016-5-17', 4, 4, 3, 5, '', '00008');
+VALUES ('00070', '00035', '2015-5-17', 3, 5, 2, 1, 'I felt like this place wasnt trying hard enough. The steak was a little dry. ', '00008');
 INSERT INTO RATING
-VALUES ('00071', '00036', '2016-5-17', 4, 4, 3, 5, '', '00008');
+VALUES ('00071', '00036', '2016-6-17', 2, 1, 4, 1, 'I had high hopes for this place. I was not very pleased to find out that the coffee wasnt organic. The steak was a little dry.', '00008');
 INSERT INTO RATING
-VALUES ('00072', '00037', '2016-5-17', 4, 4, 3, 5, '', '00008');
+VALUES ('00072', '00037', '2017-7-17', 5, 3, 5, 2, 'Everything from the starters to the entrees to the desserts meshed perfectly with my flavor-profile.', '00008');
 INSERT INTO RATING
-VALUES ('00073', '00038', '2016-5-17', 4, 4, 3, 5, '', '00008');
+VALUES ('00073', '00038', '2017-8-17', 3, 1, 1, 4, 'I felt like this place was trying too hard. The ambiance gives off an earthy feel-good vibe. Some of my favorite dishes are no longer available. This place deserves its very average rating.', '00008');
 
 -- Five Guys
 INSERT INTO RATING
-VALUES ('00074', '00031', '2016-5-17', 4, 4, 3, 5, '', '00009');
+VALUES ('00074', '00031', '2012-9-17', 1, 2, 4, 3, 'This place was just ok. Overhyped. The chicken was a little dry. The waiter was barely there. Might be back. Time will tell.', '00009');
 INSERT INTO RATING
-VALUES ('00075', '00032', '2016-5-17', 4, 4, 3, 5, '', '00009');
+VALUES ('00075', '00032', '2013-8-17', 5, 3, 5, 2, 'I want to hire their decorator to furnish my house.', '00009');
 INSERT INTO RATING
-VALUES ('00076', '00033', '2016-5-17', 4, 4, 3, 5, '', '00009');
+VALUES ('00076', '00033', '2014-7-17', 2, 4, 5, 5, 'There were a lot of interesting decorations on the walls.', '00009');
 INSERT INTO RATING
-VALUES ('00077', '00034', '2016-5-17', 4, 4, 3, 5, '', '00009');
+VALUES ('00077', '00034', '2014-6-17', 1, 2, 5, 1, 'I have been here several times before. Overhyped. I was not very pleased to find out that the coffee wasnt organic.', '00009');
 INSERT INTO RATING
-VALUES ('00078', '00035', '2016-5-17', 4, 4, 3, 5, '', '00009');
+VALUES ('00078', '00035', '2015-5-17', 3, 4, 2, 2, 'The waiter was nothing remarkable. Overall, this place is just okay.', '00009');
 INSERT INTO RATING
-VALUES ('00079', '00036', '2016-5-17', 4, 4, 3, 5, '', '00009');
+VALUES ('00079', '00036', '2016-4-17', 3, 1, 4, 3, 'I felt like this place was trying too hard. The ambiance gives off an earthy feel-good vibe. Some of my favorite dishes are no longer available. This place deserves its very average rating.', '00009');
 INSERT INTO RATING
-VALUES ('00080', '00037', '2016-5-17', 4, 4, 3, 5, '', '00009');
+VALUES ('00080', '00037', '2017-3-17', 5, 5, 4, 5, 'OMG! So awesome! The waiter did an excellent job. I found the ambiance to be very charming. This is definitely a spot Ill be frequenting.', '00009');
 INSERT INTO RATING
-VALUES ('00081', '00038', '2016-5-17', 4, 4, 3, 5, '', '00009');
+VALUES ('00081', '00038', '2017-2-17', 4, 1, 1, 4, 'Try out the huge selection of incredible appetizers. Satisfactory experience, will come again.', '00009');
 
 -- SuzyQ
 INSERT INTO RATING
-VALUES ('00082', '00031', '2016-5-17', 4, 4, 3, 5, '', '00010');
+VALUES ('00082', '00031', '2014-12-17', 2, 1, 5, 4, 'I felt the prices were too high given the quality of the food.', '00010');
 INSERT INTO RATING
-VALUES ('00083', '00032', '2016-5-17', 4, 4, 3, 5, '', '00010');
+VALUES ('00083', '00032', '2015-3-17', 1, 1, 3, 2, 'Dreadful place. Eating here is like playing Russian Roulette, only you have a 5 out of 6 chance of getting food poisoning.', '00010');
 INSERT INTO RATING
-VALUES ('00084', '00033', '2016-5-17', 4, 4, 3, 5, '', '00010');
+VALUES ('00084', '00033', '2015-4-17', 2, 3, 3, 3, 'This place had a lot of heart. The entree I had was sublime. The waitress was barely there. The ambiance gives off an earthy feel-good vibe. ', '00010');
 INSERT INTO RATING
-VALUES ('00085', '00034', '2016-5-17', 4, 4, 3, 5, '', '00010');
+VALUES ('00085', '00034', '2014-5-17', 3, 3, 3, 2, 'Im torn about this place. The chicken was a little dry. I felt the prices were too high given the quality of the food. The service was good for the most part but the waitress was a bit rude. Overall, this place is just so-so. I could come back.', '00010');
 INSERT INTO RATING
-VALUES ('00086', '00035', '2016-5-17', 4, 4, 3, 5, '', '00010');
+VALUES ('00086', '00035', '2017-7-17', 2, 4, 3, 5, 'This place was just ok. Overhyped. The chicken was a little dry. The waiter was barely there. Might be back. Time will tell.', '00010');
 INSERT INTO RATING
-VALUES ('00087', '00036', '2016-5-17', 4, 4, 3, 5, '', '00010');
+VALUES ('00087', '00036', '2016-8-17', 1, 4, 3, 2, 'When I walked in, I really wasnt expecting much. I heard a rumor that the vegetarian dishes are prepared alongside the meat. The ambiance gives off an earthy feel-good vibe. The tofu dish tasted spongy and a bit bland. The waitress was barely there. I would be hard pressed to come back.', '00010');
 INSERT INTO RATING
-VALUES ('00088', '00037', '2016-5-17', 4, 4, 3, 5, '', '00010');
+VALUES ('00088', '00037', '2015-9-17', 2, 3, 3, 5, 'I felt like this place was trying too hard. The ambiance gives off an earthy feel-good vibe. Some of my favorite dishes are no longer available. This place deserves its very average rating.', '00010');
 INSERT INTO RATING
-VALUES ('00089', '00038', '2016-5-17', 4, 4, 3, 5, '', '00010');
+VALUES ('00089', '00038', '2014-10-17', 3, 2, 3, 2, 'I felt like this place wasnt trying hard enough. The steak was a little dry. ', '00010');
 
 -- Kallisto
 INSERT INTO RATING
-VALUES ('00090', '00031', '2016-5-17', 4, 4, 3, 5, '', '00011');
+VALUES ('00090', '00031', '2015-8-17', 3, 2, 3, 4, 'Decent place. The entree I had was sublime. The ambiance gives off an earthy feel-good vibe.', '00011');
 INSERT INTO RATING
-VALUES ('00091', '00032', '2016-5-17', 4, 4, 3, 5, '', '00011');
+VALUES ('00091', '00032', '2016-7-17', 1, 4, 3, 2, 'I have been here several times before! Overhyped. I was not very pleased to find out that the coffee wasnt organic.', '00011');
 INSERT INTO RATING
-VALUES ('00092', '00033', '2016-5-17', 4, 4, 3, 5, '', '00011');
+VALUES ('00092', '00033', '2017-6-17', 1, 1, 2, 2, 'I am never coming back here! Seriously, how difficult is it to get a clean glass around here?', '00011');
 INSERT INTO RATING
-VALUES ('00093', '00034', '2016-5-17', 4, 4, 3, 5, '', '00011');
+VALUES ('00093', '00034', '2016-4-17', 5, 5, 4, 2, 'Yummers! The food is simply to die for', '00011');
 INSERT INTO RATING
-VALUES ('00094', '00035', '2016-5-17', 4, 4, 3, 5, '', '00011');
+VALUES ('00094', '00035', '2015-3-17', 2, 3, 1, 5, 'I felt the prices were too high given the quality of the food.', '00011');
 INSERT INTO RATING
-VALUES ('00095', '00036', '2016-5-17', 4, 4, 3, 5, '', '00011');
+VALUES ('00095', '00036', '2017-2-17', 2, 2, 1, 2, 'I had high hopes for this place. I was not very pleased to find out that the coffee wasnt organic. The steak was a little dry.', '00011');
 INSERT INTO RATING
-VALUES ('00096', '00037', '2016-5-17', 4, 4, 3, 5, '', '00011');
+VALUES ('00096', '00037', '2016-1-17', 1, 1, 1, 1, 'Terrible! I threw up in my mouth a little when they brought me my food. Too many things on the menu look like crap, smell like crap, and taste like crap. The service was terrible. The waiter was very air-headed. I wish I could put a sign out front that said "DONT COME HERE!"', '00011');
 INSERT INTO RATING
-VALUES ('00097', '00038', '2016-5-17', 4, 4, 3, 5, '', '00011');
+VALUES ('00097', '00038', '2015-12-17', 5, 4, 3, 2, 'It was much better than I expected. The decor was unique and incredible. The entrees are simply to die for.', '00011');
 
 -- Milestones
 INSERT INTO RATING
-VALUES ('00098', '00031', '2016-5-17', 4, 4, 3, 5, '', '00012');
+VALUES ('00098', '00031', '2016-4-17', 2, 3, 2, 5, 'I felt like this place wasnt trying hard enough. The steak was a little dry. ', '00012');
 INSERT INTO RATING
-VALUES ('00099', '00032', '2016-5-17', 4, 4, 3, 5, '', '00012');
+VALUES ('00099', '00032', '2016-5-17', 3, 2, 3, 3, 'I had high hopes for this place. I was not very pleased to find out that the coffee wasnt organic. The steak was a little dry.', '00012');
 INSERT INTO RATING
-VALUES ('00100', '00033', '2016-5-17', 4, 4, 3, 5, '', '00012');
+VALUES ('00100', '00033', '2017-6-17', 2, 5, 4, 5, 'I felt the prices were too high given the quality of the food.', '00012');
 INSERT INTO RATING
-VALUES ('00101', '00034', '2016-5-17', 4, 4, 3, 5, '', '00012');
+VALUES ('00101', '00034', '2016-7-17', 3, 4, 5, 3, 'This place was just ok. Overhyped. The chicken was a little dry. The waiter was barely there. Might be back. Time will tell.', '00012');
 INSERT INTO RATING
-VALUES ('00102', '00035', '2016-5-17', 4, 4, 3, 5, '', '00012');
+VALUES ('00102', '00035', '2017-8-17', 4, 5, 3, 4, 'Make sure to save room for dessert, because that was the best part of the meal!', '00012');
 INSERT INTO RATING
-VALUES ('00103', '00036', '2016-5-17', 4, 4, 3, 5, '', '00012');
+VALUES ('00103', '00036', '2017-9-17', 4, 2, 2, 2, 'I felt like this place was trying too hard. The ambiance gives off an earthy feel-good vibe. Some of my favorite dishes are no longer available. This place deserves its very average rating.', '00012');
 INSERT INTO RATING
-VALUES ('00104', '00037', '2016-5-17', 4, 4, 3, 5, '', '00012');
+VALUES ('00104', '00037', '2016-10-17', 5, 2, 5, 5, 'My taste buds are still dancing from our last visit!', '00012');
 INSERT INTO RATING
-VALUES ('00105', '00038', '2016-5-17', 4, 4, 3, 5, '', '00012');
+VALUES ('00105', '00038', '2016-12-17', 2, 5, 4, 2, 'The waiter was nothing remarkable. Overall, this place is just okay.', '00012');
