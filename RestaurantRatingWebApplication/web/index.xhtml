@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+      
+    <meta charset="UTF-8"> </meta>
+    <meta name="viewport" content="width=device-width, initial-scale=1"> </meta>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> </link>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway"> </link>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> </link>
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif}
+</style>
+
+    
+    
+    <head>
+        <title>TODO supply a title</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+    <body class="w3-light-grey">
+        <div>TODO write content</div>
+        
+        <h1 align="center">#{testBean.title}</h1>
+        <h1 align="left">#{testBean.list}</h1>
+        
+        <h1 align="left">#{testBean.content}</h1>
+        
+        <h:form>
+            <h:commandButton action="#{testBean.setContent('sdfsdfsdfsdfasf')}" value="submit" />
+        </h:form>
+        
+        
+        
+        
+        <h:form>
+                        <h:commandButton style="width:50px; position: absolute; right: 10px; " image="resources/images/Shopping-Cart.png" action="orderPage" />
+                        <h:dataTable  cellpadding="10pt"  value="#{catalogBean.items}" var="book">
+                            <h:column>
+                               <h:outputText value="#{book.shortDescription}"/>
+                            </h:column>
+                            <h:column>
+                                <h:outputText value="#{book.cost}">
+                                    <f:convertNumber type="currency" currencySymbol="$" />
+                                </h:outputText>
+                            </h:column>
+                            <h:column>
+                                <h:outputText value="#{book.longDescription}"/>
+                            </h:column>
+                            <h:column>
+                                <h:commandButton action="#{catalogBean.orderBook()}" value="#{msg['addCart']}">
+                                    <f:setPropertyActionListener target="#{catalogBean.orderBookId}" value="#{book.itemID}"/>
+                                </h:commandButton>
+                            </h:column>
+                        </h:dataTable>
+                    </h:form>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <p>
+            <form action="DBLogin.jsp">
+            Username: <input type="text" name="username" size="30" value="postgres"/>
+            
+            <br/>Password: <input type="password" name="password" size="30" value="cappamunch"/>
+
+            <br/><input type="submit" value="Submit Information" />
+            
+            </form>
+            
+        </p>
+        
+        
+        
+    </body>
+</html>
