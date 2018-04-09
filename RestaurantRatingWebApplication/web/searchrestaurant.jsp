@@ -1,9 +1,3 @@
-<%-- 
-    Document   : searchrestaurant
-    Created on : Apr 8, 2018, 6:49:12 PM
-    Author     : jimmy
---%>
-
 <%@page import="java.util.ArrayList"%>
 <%@page import="java.util.List"%>
 <%@page import="DatabaseAccess.PostgresqlAccess"%>

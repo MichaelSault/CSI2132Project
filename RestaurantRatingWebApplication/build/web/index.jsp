@@ -1,12 +1,3 @@
-<%-- 
-    Document   : index
-    Created on : Apr 8, 2018, 12:28:31 AM
-    Author     : jimmy
-
-
-    css template: https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_hotel&stacked=h
---%>
-
 <%@page import="DatabaseAccess.PostgresqlAccess"%>
 
 

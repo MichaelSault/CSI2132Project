@@ -1,9 +1,3 @@
-<%-- 
-    Document   : DBLogin
-    Created on : Apr 8, 2018, 6:00:05 AM
-    Author     : jimmy
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@page import="DatabaseAccess.PostgresqlAccess"%>
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>

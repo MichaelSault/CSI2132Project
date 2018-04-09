@@ -1,9 +1,3 @@
-<%-- 
-    Document   : invalidcreds
-    Created on : Apr 8, 2018, 7:06:20 AM
-    Author     : jimmy
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>

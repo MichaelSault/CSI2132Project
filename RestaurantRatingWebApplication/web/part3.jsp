@@ -1,12 +1,3 @@
-<%-- 
-    Document   : index
-    Created on : Apr 8, 2018, 12:28:31 AM
-    Author     : jimmy
-
-
-    css template: https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_hotel&stacked=h
---%>
-
 <%@page import="DatabaseAccess.PostgresqlAccess"%>
 
 
@@ -41,7 +32,7 @@
                 TYPE: <input type="text" name="type" size="30" value=""/> <br>
                 URL: <input type="text" name="url" size="30" value=""/> <br>
 
-                <input type="submit" value="Submit" />
+                <input type="submit" value="Submit" name="submitaddrestaurant"/>
             
             </form>
             
@@ -55,7 +46,7 @@
             <form action="RemoveRestaurant.jsp">
                 RESTAURANT_ID: <input type="text" name="rid" size="30" value=""/> <br>
 
-                <input type="submit" value="Submit" />
+                <input type="submit" value="Submit" name="submitremoverestaurant"/>
             
             </form>
             
@@ -74,7 +65,7 @@
                 TYPE: <input type="text" name="type" size="30" value=""/> <br>
                 REPUTATION: <input type="text" name="reputation" size="30" value=""/> <br>
 
-                <input type="submit" value="Submit" />
+                <input type="submit" value="Submit" name="submitaddrater"/>
             
             </form>
             
@@ -88,7 +79,7 @@
             <form action="RemoveRater.jsp">
                 USER_ID: <input type="text" name="uid" size="30" value=""/> <br>
 
-                <input type="submit" value="Submit" />
+                <input type="submit" value="Submit" name="submitremoverater"/>
             
             </form>
             
@@ -108,7 +99,7 @@
                 PRICE: <input type="text" name="price" size="30" value=""/> <br>
                 RESTAURANT_ID: <input type="text" name="rid" size="30" value=""/> <br>
                 
-                <input type="submit" value="Submit" />
+                <input type="submit" value="Submit" name="submitaddmenuitem"/>
             
             </form>
             
@@ -122,7 +113,7 @@
             <form action="RemoveMenuItem.jsp">
                 ITEM_ID: <input type="text" name="iid" size="30" value=""/> <br>
 
-                <input type="submit" value="Submit" />
+                <input type="submit" value="Submit" name="submitremovemenuitem"/>
             
             </form>
             
@@ -130,8 +121,12 @@
         
         
         
-     
+        <%
+            PostgresqlAccess ps = new PostgresqlAccess();
+            String ret = ps.query("RESTAURANT", "NAME", "SuzyQ");
+        %>
         
+        <%=ret%>
         
         
         

@@ -5,6 +5,8 @@
       xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
       xmlns:h="http://xmlns.jcp.org/jsf/html"
       xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <jsp:useBean id="searchBean"  class="beans.SearchBean" scope="session"/>
+<jsp:setProperty name="searchBean" property="*" />
 
     
     <meta charset="UTF-8"> </meta>
@@ -32,17 +34,7 @@
         </div>
         
         
-        <p>
-            <form action="SearchResults.jsp">
-                TABLE: <input type="text" name="table" size="30" value=""/> <br>
-                COLUMN: <input type="text" name="col" size="30" value=""/> <br>
-                VALUE: <input type="text" name="value" size="30" value=""/> <br>
-
-                <input type="submit" value="Submit" />
-            
-            </form>
-            
-        </p>
+        
         
         
         

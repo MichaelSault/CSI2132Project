@@ -1,18 +1,12 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package DatabaseAccess;
 
-/**
- *
- * @author jimmy
- */
 
 import java.sql.Connection;
+import java.sql.DatabaseMetaData;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
+import java.sql.ResultSetMetaData;
 import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
@@ -23,6 +17,7 @@ import javax.swing.JPasswordField;
 public class PostgresqlAccess {
     String password = "123", message = "Enter password";
     String username = "postgres";
+    String url = "jdbc:postgresql://159.89.123.95/postgres";
     
     Connection c = null;
     Statement stmt = null;
@@ -63,7 +58,7 @@ public class PostgresqlAccess {
         try
         {
             Class.forName("org.postgresql.Driver");
-            c = DriverManager.getConnection("jdbc:postgresql://159.89.123.95/postgres", username, password);
+            c = DriverManager.getConnection(url, username, password);
             c.setAutoCommit(false);
             System.out.println("Opened database successfully");
 
@@ -198,6 +193,119 @@ public class PostgresqlAccess {
         }
         return results;
     }
+    
+    public String query(String table, String col, String value)
+    {
+        List<Pair> KVList = new ArrayList<Pair>();
+        
+        String results = "";
+        
+        Connection c = null;
+        Statement stmt = null;
+        try 
+        {
+            Class.forName("org.postgresql.Driver");
+            //c = DriverManager.getConnection("jdbc:postgresql://159.89.123.95/postgres", username, password);
+            c = DriverManager.getConnection("jdbc:postgresql://localhost/postgres", username, password);
+            c.setAutoCommit(false);
+
+            
+          
+            
+            
+            stmt = c.createStatement();
+
+            String dbquery = String.format("SELECT * FROM %s Q WHERE Q.%s = '%s';", table, col, value);
+            
+            ResultSet rs = stmt.executeQuery(dbquery);
+            ResultSetMetaData rsmd = rs.getMetaData();
+            
+            int colCount = rsmd.getColumnCount();
+            List<String> colNames = new ArrayList<String>();
+            for (int i = 1; i <= colCount; ++i)
+            {
+                String n = rsmd.getColumnName(i);
+                colNames.add(n);
+            }
+            
+            int count = 0;
+            while ( rs.next() ) {
+                //String entry = "";
+                for (int i = 0; i < colCount; ++i)
+                {
+                    String entry = String.format("[%s: %s]", colNames.get(i), rs.getString(colNames.get(i)));
+                    results += entry;
+                }
+                
+            }
+            
+            rs.close();
+            
+            stmt.close();
+            c.close();
+        } 
+        catch ( Exception e ) {
+            results += e;
+            results += "No results";
+        }
+        return results;
+    }
+    
+    
+    public String generalQuery(String query)
+    {
+        String results = "";
+        
+        Connection c = null;
+        Statement stmt = null;
+        try 
+        {
+            Class.forName("org.postgresql.Driver");
+            //c = DriverManager.getConnection("jdbc:postgresql://159.89.123.95/postgres", username, password);
+            c = DriverManager.getConnection("jdbc:postgresql://localhost/postgres", username, password);
+            c.setAutoCommit(false);
+
+            
+          
+            
+            
+            stmt = c.createStatement();
+
+            String dbquery = String.format(query);
+            
+            ResultSet rs = stmt.executeQuery(dbquery);
+            ResultSetMetaData rsmd = rs.getMetaData();
+            
+            
+            
+           
+            int columnsNumber = rsmd.getColumnCount();
+            while (rs.next()) 
+            {
+                for (int i = 1; i <= columnsNumber; i++) 
+                {
+                    if (i > 1) System.out.print(",  ");
+                        String columnValue = rs.getString(i);
+                    results += (rsmd.getColumnName(i) + ":" + columnValue + " " );
+                }
+            }
+            
+            
+            
+            
+            rs.close();
+            
+            stmt.close();
+            c.close();
+        } 
+        catch ( Exception e ) {
+            results += e;
+            results += "No results";
+        }
+        return results;
+    }
+    
+    
     
     public static void main( String args[] ) {
         
