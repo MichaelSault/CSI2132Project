@@ -33,8 +33,8 @@ GROUP BY R.TYPE, M.ITEM_TYPE;
 /*------------------------------------------------------------------------------------------------*/
 /*RATINGS OF RESTAURANTS QUERRIES [STUCK]*/
 /*------------------------------------------------------------------------------------------------*/
-/* Querry F: This one doesn't quite work... it's close but idk what's wrong...*/
-SELECT DISTINCT RR.USER_ID, RS.NAME, AVG((R.FOOD + R.MOOD + R.STAFF + R.PRICE)/4) as AVG_RATING, COUNT(R.*)
+/* Querry F: fixed, should work now*/
+SELECT DISTINCT RR.USER_ID, RS.NAME, ((AVG(R.FOOD + R.MOOD + R.STAFF + R.PRICE)/4)::bigint) as AVG_RATING, COUNT(R.*)
 FROM RATING R, RESTAURANT RS, Rater RR 
 WHERE R.RESTAURANT_ID = RS.RESTAURANT_ID AND R.USER_ID = RR.USER_ID
 GROUP BY RS.NAME, RR.USER_ID 
@@ -77,8 +77,13 @@ WHERE R2.RESTAURANT_ID IN
 FROM RESTAURANT RS2 
 WHERE RS2.TYPE = 'Casual Dining')) AND R.USER_ID = RR.USER_ID);
 
-/* Querry J: Might take a bit of work?*/
-
+/* Querry J: My Assumption was that the type of restaurant with the most ratings would be the most popular despite it's scores.
+Simply put, this means the most people have eaten there, there for it would be the most popular*/
+SELECT DISTINCT RS.TYPE, COUNT(R.RATING_ID) AS TIMES_RATED
+FROM RATING R, RESTAURANT RS, Rater RR 
+WHERE R.RESTAURANT_ID = RS.RESTAURANT_ID AND R.USER_ID = RR.USER_ID
+GROUP BY RS.TYPE, RR.USER_ID 
+ORDER BY TIMES_RATED DESC LIMIT 1;
 
 /*------------------------------------------------------------------------------------------------*/
 /*RATERS AND THEIR RATINGS QUERRIES [IN-PROGRESS]*/
