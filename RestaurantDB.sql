@@ -13,7 +13,7 @@ CREATE TABLE RESTAURANT
 (RESTAURANT_ID CHAR(5) PRIMARY KEY,
 NAME  CHAR(25),
 TYPE CHAR(25),
-URL CHAR(50) );
+URL CHAR(50));
 
 CREATE TABLE RATING
 (RATING_ID CHAR(5) PRIMARY KEY,
@@ -43,7 +43,7 @@ ITEM_TYPE CHAR(30),
 ITEM_CATEGORY CHAR(30),
 ITEM_DESCRIPTION CHAR(350),
 PRICE DECIMAL(3,1) CHECK (PRICE > 0),
-RESTURANT_ID CHAR(5) REFERENCES RESTAURANT(RESTAURANT_ID) );
+RESTAURANT_ID CHAR(5) REFERENCES RESTAURANT(RESTAURANT_ID) );
 
 CREATE TABLE RATINGITEM
 (RATING_ID CHAR(5) REFERENCES RATING(RATING_ID),
@@ -84,7 +84,7 @@ VALUES
 ('00039', 'fakeemail@gmail.com', 'ChefRams', '2013-08-27', 'Online', 4);
 INSERT INTO RATER
 VALUES
-('00040', 'Follow4Follow@gmail.com', 'Follow4Follow', '2014-07-03', 'Blog', 2);
+('00040', 'IAmTheJohn@gmail.com', 'John', '2014-07-03', 'Blog', 2);
 INSERT INTO RATER
 VALUES
 ('00041', 'ASideOfFries@gmail.com', 'ASideOfFries', '2015-01-26', 'Food Critic', 5);
@@ -316,6 +316,12 @@ INSERT INTO RATING
 VALUES ('00009', '00039', '2009-12-1', 4, 4, 3, 5, 'I stumbled on this undiscovered gem right in our neighboorhood. The waitress was prompt and polite. Try out the huge selection of incredible appetizers. The food was flavorful, savory, and succulent. Make sure to save room for dessert, because that was the best part of the meal! I had a satisfactory experience and will have to try it again.', '00001');
 INSERT INTO RATING
 VALUES ('00010', '00040', '2005-5-4', 4, 1, 3, 2, 'This place was nearby and I decided to check it out. After my meal, I was knocked into a food coma. Everything was mostly decadent. Solid 4 stars.', '00001');
+INSERT INTO RATING
+VALUES ('00106', '00039', '2011-12-1', 4, 2, 3, 5, 'Food kinda sucked this time, everything else was great though!', '00001');
+INSERT INTO RATING
+VALUES ('00107', '00039', '2010-12-1', 4, 5, 5, 5, 'Third time here, just keeps getting better and better!', '00001');
+
+
 
 -- Moose McGuires
 INSERT INTO RATING
